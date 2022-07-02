@@ -9,7 +9,7 @@ Pytest Plugin for running and testing subprocesses.
 
 |
 | **Code:** https://github.com/boromir674/pytest-subprocess
-| **Docs:** https://pytest-subprocess.readthedocs.io/en/master/
+| **Docs:** https://subprocess-pytest-plugin.readthedocs.io/en/master/
 | **PyPI:** https://pypi.org/project/pytest-run-subprocess/
 | **CI:** https://github.com/boromir674/pytest-subprocess/actions/
 
@@ -115,9 +115,9 @@ License
 
 .. Documentation
 
-.. |docs| image:: https://img.shields.io/readthedocs/pytest-subprocess/master?logo=readthedocs&logoColor=lightblue
+.. |docs| image:: https://img.shields.io/readthedocs/subprocess-pytest-plugin/master?logo=readthedocs&logoColor=lightblue
     :alt: Read the Docs (version)
-    :target: https://pytest-subprocess.readthedocs.io/en/master/
+    :target: https://subprocess-pytest-plugin.readthedocs.io/en/master/
 
 .. Code Coverage
 
