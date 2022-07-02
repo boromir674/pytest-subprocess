@@ -1,5 +1,5 @@
 __version__ = '0.0.1'
 
-from .fixtures import my_fixture
+from .fixtures import run_subprocess
 
-__all__ = ['my_fixture']
+__all__ = ['run_subprocess']

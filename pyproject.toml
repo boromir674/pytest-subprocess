@@ -50,9 +50,6 @@ typing = [
 ]
 
 
-
-
-
 # TOOLS
 
 [tool.pytest.ini_options]
@@ -66,10 +63,6 @@ markers = [
 testpaths = [
     "tests",
 ]
-explicit-only = [
-    "integration",
-    "network_bound",
-]
 
 
 [tool.black]
@@ -78,10 +71,14 @@ include = '\.pyi?$'
 extend-exclude = '''
 '''
 
-
 [tool.isort]
 profile = 'black'
 
+[tool.bandit]
+tests = []
+skips = [
+    "B101",
+]
 
 [tool.software-release]
 version_variable = "src/pytest_run_subprocess/__init__.py:__version__"
