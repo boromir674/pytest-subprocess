@@ -129,15 +129,15 @@ License
 
 .. |release_version| image:: https://img.shields.io/pypi/v/pytest_run_subprocess
     :alt: Production Version
-    :target: https://pypi.org/project/pytest_run_subprocess/
+    :target: https://pypi.org/project/pytest-run-subprocess/
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/pytest-run-subprocess?color=green&label=wheel
     :alt: PyPI - Wheel
-    :target: https://pypi.org/project/pytest_run_subprocess
+    :target: https://pypi.org/project/pytest-run-subprocess
 
 .. |supported_versions| image:: https://img.shields.io/pypi/pyversions/pytest-run-subprocess?color=blue&label=python&logo=python&logoColor=%23ccccff
     :alt: Supported Python versions
-    :target: https://pypi.org/project/pytest_run_subprocess
+    :target: https://pypi.org/project/pytest-run-subprocess
 
 .. Github Releases & Tags
 
@@ -171,8 +171,8 @@ License
 
 .. |maintainability| image:: https://img.shields.io/codeclimate/maintainability/boromir674/pytest-subprocess
     :alt: Code Climate Maintainability
-    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/maintainability
+    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/
 
 .. |tech-debt| image:: https://img.shields.io/codeclimate/tech-debt/boromir674/pytest-subprocess
     :alt: Technical Debt
-    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/maintainability
+    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/

@@ -5,7 +5,7 @@ def test_fixture(testdir):
     import pytest
 
     def test_fixture(run_subprocess):
-        if sys.platform in ('linux', 'cygwin'):  # ie we are on a Linux-like OS
+        if sys.platform in ('linux', 'cygwin', 'darwin'):  # ie we are on a Linux-like OS
             command_line_arguments = ('ls', '-l')
         else:
             command_line_arguments = ('dir',)
