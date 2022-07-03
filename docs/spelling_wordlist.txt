@@ -51,3 +51,9 @@ github
 
 # Open Source Software Licences
 affero
+
+# Pytest, subprocess, etc
+Pytest
+sub-subprocess
+subprocess
+subprocesses

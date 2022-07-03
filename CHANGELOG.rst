@@ -2,6 +2,21 @@
 Changelog
 =========
 
+0.9.0 (2022-07-02)
+==================
+
+This is the first meaningful release of this Pytest Plugin.
+Insalling this plugin in your environment allows your to use the
+'run_subprocess' pytest fixture.
+
+Changes
+^^^^^^^
+
+feature
+"""""""
+- add the 'run_subprocess' pytest fixture that wraps around subprocess.run
+
+
 0.0.1 (2022-07-02)
 =======================================
 

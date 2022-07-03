@@ -9,7 +9,7 @@ Pytest Plugin for running and testing subprocesses.
 
 |
 | **Code:** https://github.com/boromir674/pytest-subprocess
-| **Docs:** https://pytest-subprocess.readthedocs.io/en/master/
+| **Docs:** https://subprocess-pytest-plugin.readthedocs.io/en/master/
 | **PyPI:** https://pypi.org/project/pytest-run-subprocess/
 | **CI:** https://github.com/boromir674/pytest-subprocess/actions/
 
@@ -115,9 +115,9 @@ License
 
 .. Documentation
 
-.. |docs| image:: https://img.shields.io/readthedocs/pytest-subprocess/master?logo=readthedocs&logoColor=lightblue
+.. |docs| image:: https://img.shields.io/readthedocs/subprocess-pytest-plugin/master?logo=readthedocs&logoColor=lightblue
     :alt: Read the Docs (version)
-    :target: https://pytest-subprocess.readthedocs.io/en/master/
+    :target: https://subprocess-pytest-plugin.readthedocs.io/en/master/
 
 .. Code Coverage
 
@@ -129,21 +129,21 @@ License
 
 .. |release_version| image:: https://img.shields.io/pypi/v/pytest_run_subprocess
     :alt: Production Version
-    :target: https://pypi.org/project/pytest_run_subprocess/
+    :target: https://pypi.org/project/pytest-run-subprocess/
 
 .. |wheel| image:: https://img.shields.io/pypi/wheel/pytest-run-subprocess?color=green&label=wheel
     :alt: PyPI - Wheel
-    :target: https://pypi.org/project/pytest_run_subprocess
+    :target: https://pypi.org/project/pytest-run-subprocess
 
 .. |supported_versions| image:: https://img.shields.io/pypi/pyversions/pytest-run-subprocess?color=blue&label=python&logo=python&logoColor=%23ccccff
     :alt: Supported Python versions
-    :target: https://pypi.org/project/pytest_run_subprocess
+    :target: https://pypi.org/project/pytest-run-subprocess
 
 .. Github Releases & Tags
 
-.. |commits_since_specific_tag_on_master| image:: https://img.shields.io/github/commits-since/boromir674/pytest-subprocess/v0.0.1/master?color=blue&logo=github
+.. |commits_since_specific_tag_on_master| image:: https://img.shields.io/github/commits-since/boromir674/pytest-subprocess/v0.9.0/master?color=blue&logo=github
     :alt: GitHub commits since tagged version (branch)
-    :target: https://github.com/boromir674/pytest-subprocess/compare/v0.0.1..master
+    :target: https://github.com/boromir674/pytest-subprocess/compare/v0.9.0..master
 
 .. |commits_since_latest_github_release| image:: https://img.shields.io/github/commits-since/boromir674/pytest-subprocess/latest?color=blue&logo=semver&sort=semver
     :alt: GitHub commits since latest release (by SemVer)
@@ -171,8 +171,8 @@ License
 
 .. |maintainability| image:: https://img.shields.io/codeclimate/maintainability/boromir674/pytest-subprocess
     :alt: Code Climate Maintainability
-    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/maintainability
+    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/
 
 .. |tech-debt| image:: https://img.shields.io/codeclimate/tech-debt/boromir674/pytest-subprocess
     :alt: Technical Debt
-    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/maintainability
+    :target: https://codeclimate.com/github/boromir674/pytest-subprocess/
