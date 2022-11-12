@@ -2,6 +2,17 @@
 Changelog
 =========
 
+0.10.0 (2022-11-12)
+===================
+
+Changes
+^^^^^^^
+
+feature
+"""""""
+- allow client code to override subprocess kwargs, such as 'check'
+
+
 0.9.0 (2022-07-02)
 ==================
 
