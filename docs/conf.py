@@ -30,7 +30,7 @@ def get_templated_vars():
             package_name='pytest_run_subprocess',
             author_name='Konstantinos Lampridis',
             year='2022',
-            version='0.9.0',
+            version='0.10.0',
             github_username='boromir674',
             repo_name='pytest-subprocess',
         ),
