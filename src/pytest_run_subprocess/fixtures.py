@@ -49,13 +49,19 @@ def run_subprocess():
         def subprocess_run() -> CLIResult:
             kwargs_dict = subprocess_run_map[sys.version_info < (3, 7)]()
             completed_process = subprocess.run(  # pylint: disable=W1510
-                cli_args, **dict(dict(kwargs_dict, **kwargs), check=True)
+                cli_args, **dict(dict(kwargs_dict, **kwargs))
             )
             return CLIResult(completed_process)
 
         return subprocess_run
 
     def execute_command_in_subprocess(executable: str, *args, **kwargs):
+        """Run command with python subprocess, given optional runtime arguments.
+
+        Use kwargs to override subprocess flags, such as 'check'
+
+        Flag 'check' defaults to True.
+        """
         execute_subprocess = get_callable([executable] + list(args), **kwargs)
         return execute_subprocess()
 
